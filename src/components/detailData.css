@@ -1,0 +1,52 @@
+.detail-data header h4 {
+   
+    padding: 0.25rem 0;
+  }
+  .detail-data header{
+    border-bottom: 0.02rem solid #b8b8b8;
+    justify-content: center;
+    position: fixed;
+    top:0;
+  background: #fff;
+    width:100%;
+
+  }
+  .detail-data table{
+      font-size: 0.1rem;
+      border-collapse:collapse;
+      
+  }
+  .detail-data table tr:nth-child(odd){
+      background: #ebe7e7;
+  }
+  .detail-data header{
+    position: fixed;
+    border-bottom: 0.02rem solid #b8b8b8;
+  }
+
+  
+  .detail-data table tr:nth-child(1){
+    position: fixed;
+    top:0.86rem;
+    /* background-image: linear-gradient(45deg, #713c9e, #fff); */
+    width:100%;
+  }
+  .detail-data table th{
+    display: inline-block;
+    width:100%;
+    font-size: 0.26rem;
+    vertical-align: center;
+  }
+  .detail-data table tr:nth-child(2){
+    position: fixed;
+    top:1.35rem;
+    background: #ebe7e7;
+  
+  }
+  /* 解决手机端 2行 显示的兼容问题 */
+  .detail-data table tr:nth-child(2) td{
+    width:2rem;
+  }
+  .detail-data table tr:nth-child(3){
+    height:1.8rem;
+  }

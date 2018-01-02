@@ -1,0 +1,130 @@
+/* header */
+
+.home h4 span {
+  font-size: 0.3rem;
+}
+
+.home header {
+  border-bottom: 0.2rem solid #f1ecec;
+  justify-content: center;
+  padding: 0.2rem 0;
+  position: fixed;
+  width: 100%;
+  background: #fff;
+}
+
+
+/* tabbar timer branch */
+
+.home .weui-cells {
+  margin-top: 0;
+  /* padding: 0.02rem; */
+  display: inline;
+  width:100%;
+}
+
+.home .tools {
+  justify-content: space-around;
+  padding: 0.09rem;
+  position: fixed;
+  top:0.8rem;
+  background: #fff;
+  width:100%;
+
+}
+
+.time,
+.branch {
+  background: #f1f1f1;
+  border-radius: 0.1rem;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  box-shadow: 1px 1px 0px #888 inset;
+  height:0.68rem;
+}
+
+.vux-popup-picker-select{
+  text-align: center !important;
+}
+.home .weui-cell {
+  height: 0.5rem;
+  font-size: 12px;
+  padding: 0;
+  background: #f1f1f1;
+}
+
+
+/* content */
+
+ table tr:nth-child(2) {
+  background: #f5f5f5;
+}
+
+table td {
+  text-align: center;
+  padding: 0.08rem;
+  font-size: 0.22rem;
+  width: 17%;
+}
+
+ table th {
+  text-align: left;
+  padding: 0.08rem 0 0.08rem 0.22rem;
+  color: #faf8fb;
+  font-size: 0.24rem;
+  background-image: linear-gradient(45deg, #713c9e, #fff);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.ulData{
+  padding-top:1.6rem;
+}
+
+
+/* 弹出框的位置 */
+
+.vux-popup-dialog {
+  bottom: 30% !important;
+  overflow-y: hidden !important;
+  transition: transform 0.3s ease !important;
+}
+
+.dp-container {
+  transform: translateY(-50%) !important;
+}
+
+
+/* 前置内容 */
+
+.weui-cells:before {
+  display: none;
+}
+
+.vux-cell-box:before {
+  display: none;
+}
+.vux-cell-value{
+  color: #000 !important;
+}
+.weui-cell_access .weui-cell__ft:after{
+  display: none !important;
+}
+
+.vux-header{
+  position: fixed !important;
+  width: 100%;
+  background: #fff !important;
+  border-bottom: 1px solid #f1ecec;
+  z-index: 19;
+ 
+}
+.vux-header .vux-header-title{
+  color: #000 !important;
+}
+
+/* 员工信息 */
+

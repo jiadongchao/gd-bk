@@ -1,0 +1,53 @@
+/* header */
+
+.vux-header {
+  position: fixed;
+  width: 100%;
+}
+
+.detail-data table {
+  font-size: 0.1rem;
+  border-collapse: collapse;
+}
+
+.detail-data table tr:nth-child(odd) {
+  background: #ebe7e7;
+}
+
+.detail-data table thead {
+  position: fixed;
+  top: 0.8rem;
+  width: 100%;
+  z-index: 1;
+}
+.detail-data table thead tr{
+  
+ display: flex;
+  width: 100%;
+}
+.detail-data tbody {
+  position: absolute;
+  top: 1.8rem;
+
+  left: 0;
+  right:0;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  overflow-y: scroll;
+
+}
+.detail-data table th {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.26rem;
+  vertical-align: center;
+}
+
+
+/* 解决手机端 2行 显示的兼容问题 */
+
+.detail-data table tr:nth-child(2) td {
+  width: 2rem;
+}
+
+
